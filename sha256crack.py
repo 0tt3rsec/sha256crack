@@ -7,7 +7,7 @@ if len(sys.argv) != 2:
 	exit()
 
 wanted_hash = sys.argv[1]
-password_file = "rockyou.txt"
+password_file = "rockyou.txt" #insert wordlist
 attempts = 0
 
 with log.progress("Attempting to crack: {}!\n".format(wanted_hash)) as p:
